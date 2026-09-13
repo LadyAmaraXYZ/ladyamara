@@ -14,7 +14,7 @@ pragma solidity ^0.8.24;
  *         Do not set this address as the LetsCash fee recipient on the launch form.
  *         Fee recipient = ops EOA, then hook.updateCreator(poolId, this).
  *
- *         ladyamara.xyz · @AmaraCatXYZ · github.com/LadyAmaraXYZ/ladyamara
+ *         ladyamara.xyz · x.com/AmaraCatXYZ · github.com/LadyAmaraXYZ/ladyamara
  */
 
 interface ILetscashHook {
