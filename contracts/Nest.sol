@@ -11,7 +11,7 @@ pragma solidity ^0.8.24;
  *         Do not set this address as the LetsCash fee recipient on the launch form.
  *         Fee recipient = ops EOA, then hook.updateCreator(poolId, this).
  *
- *         ladyamara.xyz · @LadyAmaraXYZ · github.com/LadyAmaraXYZ/ladyamara
+ *         ladyamara.xyz · @AmaraCatXYZ · github.com/LadyAmaraXYZ/ladyamara
  */
 
 interface ILetscashHook {
@@ -32,7 +32,7 @@ contract Nest {
     string public constant TICKER = "AMARA";
     string public constant LINE = "Bring them home before the moon sets.";
     string public constant WEBSITE = "https://www.ladyamara.xyz";
-    string public constant X = "https://x.com/LadyAmaraXYZ";
+    string public constant X = "https://x.com/AmaraCatXYZ";
     string public constant GITHUB = "https://github.com/LadyAmaraXYZ/ladyamara";
 
     event Harvested(uint256 amount);

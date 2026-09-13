@@ -2,7 +2,7 @@
 
 Bio (160):
 
-Play as Amara. Unite Ivy, Splashy, and Moony before darkness. Every swap feeds the Nest. $AMARA on @RobinhoodCrypto · ladyamara.xyz
+Play as Amara. Unite Ivy, Splashy, and Moony before darkness. Every swap feeds the Nest. $AMARA on @RobinhoodCrypto · @AmaraCatXYZ · ladyamara.xyz
 
 Pin:
 

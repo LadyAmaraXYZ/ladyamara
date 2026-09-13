@@ -17,7 +17,7 @@ Name:        Lady AMARA
 Ticker:      AMARA
 Description: Bring them home before the moon sets. Every swap feeds the Nest.
 Website:     https://www.ladyamara.xyz
-X:           https://x.com/LadyAmaraXYZ
+X:           https://x.com/AmaraCatXYZ
 GitHub:      https://github.com/LadyAmaraXYZ/ladyamara
 Pair:        ETH
 Supply:      1B

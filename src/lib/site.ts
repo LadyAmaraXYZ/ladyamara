@@ -9,8 +9,8 @@ export const BIO =
   "Play as Amara. Unite Ivy, Splashy, and Moony before darkness. Every swap feeds the Nest. $AMARA on Robinhood Chain · ladyamara.xyz";
 
 export const SITE_URL = "https://www.ladyamara.xyz";
-export const X_URL = "https://x.com/LadyAmaraXYZ";
-export const X_HANDLE = "@LadyAmaraXYZ";
+export const X_URL = "https://x.com/AmaraCatXYZ";
+export const X_HANDLE = "@AmaraCatXYZ";
 export const GITHUB_URL = "https://github.com/LadyAmaraXYZ/ladyamara";
 export const LETSCASH_LAUNCH = "https://letscash.fun/launch";
 
