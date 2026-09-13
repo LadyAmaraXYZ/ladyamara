@@ -11,7 +11,7 @@ The grove is open.
 You are Amara. Three kittens. One moon.
 Bring them home before it sets.
 
-https://www.ladyamara.xyz
+https://ladyamara.xyz
 CA
 
 Post 1 — mechanics, no tax lead:
@@ -30,6 +30,6 @@ $AMARA on @RobinhoodCrypto
 Every swap feeds the Nest. Play is free.
 
 CA
-https://www.ladyamara.xyz
+https://ladyamara.xyz
 
 Comment: Unofficial puzzle. Not affiliated with any other AMARA.

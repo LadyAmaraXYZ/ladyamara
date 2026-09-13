@@ -31,7 +31,7 @@ contract Nest {
     string public constant NAME = "Lady AMARA";
     string public constant TICKER = "AMARA";
     string public constant LINE = "Bring them home before the moon sets.";
-    string public constant WEBSITE = "https://www.ladyamara.xyz";
+    string public constant WEBSITE = "https://ladyamara.xyz";
     string public constant X = "https://x.com/AmaraCatXYZ";
     string public constant GITHUB = "https://github.com/LadyAmaraXYZ/ladyamara";
 

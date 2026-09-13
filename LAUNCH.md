@@ -16,7 +16,7 @@ Solidity 0.8.24 · optimizer 200 · EVM Cancun
 Name:        Lady AMARA
 Ticker:      AMARA
 Description: Bring them home before the moon sets. Every swap feeds the Nest.
-Website:     https://www.ladyamara.xyz
+Website:     https://ladyamara.xyz
 X:           https://x.com/AmaraCatXYZ
 GitHub:      https://github.com/LadyAmaraXYZ/ladyamara
 Pair:        ETH
@@ -36,4 +36,4 @@ Do not put the Nest as fee recipient on the form.
 4. Put CAs in `src/lib/site.ts` + `public/token.json`. Push `main`.
 5. Anyone: `harvest()` — ETH stays in the Nest. Ops: `pull(to, wei)`.
 
-Kiln desk: https://www.ladyamara.xyz/ops (not in nav).
+Kiln desk: https://ladyamara.xyz/ops (not in nav).
