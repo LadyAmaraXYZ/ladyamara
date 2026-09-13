@@ -23,7 +23,7 @@ Pair:        ETH
 Supply:      1B
 Tax:         3%
 Fee recipient: OPS EOA (not the Nest yet)
-Image:       public/letscash.png
+Image:       public/letscash.jpg
 ```
 
 Do not put the Nest as fee recipient on the form.
