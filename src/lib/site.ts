@@ -28,8 +28,8 @@ export const WETH = "0x0Bd7D308f8E1639FAb988df18A8011f41EAcAD73";
 
 /** Filled after Remix + letscash. Empty = pending on the site. */
 export const TOKEN_CA: string = "";
-export const VAULT_CA: string = "";
-export const OPS_EOA: string = "";
+export const VAULT_CA: string = "0x3aAF9d82fadEEf6a1f8d311bD206bDEEAC0Dd4ff";
+export const OPS_EOA: string = "0x9945849a08119faebC71bF177FfCA75558b04D7B";
 export const POOL_ID: string = "";
 export const LAUNCH_BLOCK = 0;
 
