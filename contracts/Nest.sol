@@ -3,7 +3,10 @@ pragma solidity ^0.8.24;
 
 /**
  * @title  The Nest
- * @notice Lady AMARA fee sink on Robinhood Chain 4663.
+ * @notice Lady AMARA / $AMARA fee sink on Robinhood Chain 4663.
+ *         Play as Amara. Unite Ivy, Splashy, and Moony before darkness.
+ *         Every swap feeds this vault. Play is free.
+ *
  *         LetsCash creator stream lands here after ops updateCreator(poolId, nest).
  *         harvest() is permissionless and calls hook.claim — ETH stays in this contract.
  *         pull() is ops only. One-shot setters. Wrong pool id locks the slot.
@@ -30,10 +33,15 @@ contract Nest {
 
     string public constant NAME = "Lady AMARA";
     string public constant TICKER = "AMARA";
-    string public constant LINE = "Bring them home before the moon sets.";
+    string public constant SLOGAN = "Bring them home before the moon sets.";
+    string public constant LINE = "Mom. Three kittens. One moon.";
+    string public constant DESCRIPTION =
+        "Play as Amara. Unite Ivy, Splashy, and Moony before darkness. Every swap feeds the Nest.";
     string public constant WEBSITE = "https://ladyamara.xyz";
     string public constant X = "https://x.com/AmaraCatXYZ";
+    string public constant X_HANDLE = "@AmaraCatXYZ";
     string public constant GITHUB = "https://github.com/LadyAmaraXYZ/ladyamara";
+    string public constant IMAGE = "https://ladyamara.xyz/letscash.jpg";
 
     event Harvested(uint256 amount);
     event Pulled(address indexed to, uint256 amount);
@@ -95,8 +103,18 @@ contract Nest {
     function socials()
         external
         pure
-        returns (string memory, string memory, string memory, string memory, string memory)
+        returns (
+            string memory name_,
+            string memory ticker_,
+            string memory slogan_,
+            string memory description_,
+            string memory website_,
+            string memory x_,
+            string memory handle_,
+            string memory github_,
+            string memory image_
+        )
     {
-        return (NAME, TICKER, WEBSITE, X, GITHUB);
+        return (NAME, TICKER, SLOGAN, DESCRIPTION, WEBSITE, X, X_HANDLE, GITHUB, IMAGE);
     }
 }
