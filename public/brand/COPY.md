@@ -71,7 +71,24 @@ ladyamara.xyz
 
 ---
 
-## Comment under post 1
+## Post 3 — after live. Fun. Mechanics. Different voice. Attach post3.jpg
+
+HOW TO MOM
+
+Ivy orbits the tree.
+Splashy sprints for water.
+Moony dates the moon.
+
+You walk. MEOW pulls them in — then sleeps 3 turns.
+Don't chase. Cut them off. Beat the moon.
+
+That's the whole game.
+ladyamara.xyz/play
+$AMARA
+
+Image: /brand/post3.jpg
+
+---
 
 Unofficial puzzle. Not affiliated with any other AMARA.
 
