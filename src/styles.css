@@ -1,0 +1,154 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --color-night: #0e120c;
+  --color-moss: #163016;
+  --color-grove: #1a2e14;
+  --color-ink: #f3eee8;
+  --color-mute: #8a9a88;
+  --color-mom: #ff2ea6;
+  --color-mom-deep: #e02890;
+  --color-ivy: #33c45a;
+  --color-splash: #4d8fff;
+  --color-moony: #e0b84a;
+  --color-moon: #ffb450;
+  --color-water: #105a99;
+  --color-wood: #3d2209;
+  --color-line: #1e2a1c;
+  --font-display: "Syne", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Figtree", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+  --radius-sm: 0.4rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1.25rem;
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+  html,
+  body,
+  #root {
+    min-height: 100%;
+    background: var(--color-night);
+    color: var(--color-ink);
+  }
+  body {
+    font-family: var(--font-sans);
+    overflow-x: hidden;
+  }
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+    font-family: var(--font-display);
+  }
+  p {
+    text-wrap: pretty;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+.amara-grid {
+  --s-cnt: 5;
+  --s-size: min(6.75rem, calc((100vw - 3rem) / (var(--s-cnt) + 0.3)), calc((100svh - 16rem) / (var(--s-cnt) + 0.3)));
+  --t: var(--color-moss);
+  display: grid;
+  grid-template-columns: repeat(var(--s-cnt), var(--s-size));
+  grid-template-rows: repeat(var(--s-cnt), var(--s-size));
+  gap: 2px;
+  background: color-mix(in srgb, var(--color-ivy) 18%, black);
+  border: calc(var(--s-size) / 14) solid color-mix(in srgb, var(--color-moss) 55%, #2a6a28);
+  width: fit-content;
+  max-width: 100%;
+  margin-inline: auto;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 0 1px color-mix(in srgb, var(--color-ivy) 22%, transparent);
+}
+
+.amara-cell {
+  background: var(--t);
+  position: relative;
+  display: grid;
+  place-items: center;
+  transition: background 280ms ease;
+  box-shadow: inset 0 0 0 1px rgb(255 255 255 / 0.04);
+}
+
+.amara-dark {
+  --t: color-mix(in srgb, var(--color-moss) 22%, var(--color-night));
+}
+
+.amara-cat {
+  filter: drop-shadow(1px 0 0 currentColor) drop-shadow(-1px 0 0 currentColor)
+    drop-shadow(0 1px 0 currentColor) drop-shadow(0 -1px 0 currentColor)
+    drop-shadow(0 0 10px color-mix(in srgb, currentColor 50%, transparent));
+}
+
+.amara-won .amara-cat {
+  animation: hue-spin 1s linear 0.4s 3;
+}
+
+.amara-moon-cut {
+  background: var(--t);
+}
+
+@keyframes hue-spin {
+  to {
+    filter: hue-rotate(360deg);
+  }
+}
+
+@keyframes blink-eye {
+  0%,
+  3%,
+  6%,
+  9%,
+  12%,
+  100% {
+    transform: scaleY(1);
+  }
+  1.5%,
+  4.5%,
+  10.5% {
+    transform: scaleY(0.08);
+  }
+}
+
+.amara-cat ellipse.eye-lid {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: blink-eye 8s 4s infinite;
+}
+
+@keyframes pulse-hint {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 color-mix(in srgb, var(--color-ink) 50%, transparent);
+  }
+  60% {
+    box-shadow: 0 0 0 12px transparent;
+  }
+}
+
+.hint-pulse {
+  animation: pulse-hint 1.6s ease-in-out infinite;
+}
