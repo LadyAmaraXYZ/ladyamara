@@ -56,19 +56,18 @@ $AMARA
 
 ---
 
-## Post 2 — live. Pin this after CA. Swap the CA line. Do not use the Nest address.
+## Post 2 — live / CA. Different voice from post 1. Pin after CA. Nest address is not the token.
 
-The grove is live.
+Night did not wait.
 
-You are Amara. Unite Ivy, Splashy, and Moony before the moon sets.
-Play free. Every swap feeds the Nest.
-
-$AMARA on @RobinhoodCrypto
-
+$AMARA
 CA
-PASTE_TOKEN_CA
+0x96481cA7c3E9e5717b81a26E6227805291b383cc
 
-Play → ladyamara.xyz
+@RobinhoodCrypto
+3% to The Nest. The puzzle does not charge you.
+
+ladyamara.xyz
 
 ---
 

@@ -27,11 +27,11 @@ export const FACTORY = "0x5bd1Fbe78a78fe8236fa00CF48fbEBA74ae34661";
 export const WETH = "0x0Bd7D308f8E1639FAb988df18A8011f41EAcAD73";
 
 /** Filled after Remix + letscash. Empty = pending on the site. */
-export const TOKEN_CA: string = "";
+export const TOKEN_CA: string = "0x96481cA7c3E9e5717b81a26E6227805291b383cc";
 export const VAULT_CA: string = "0x3aAF9d82fadEEf6a1f8d311bD206bDEEAC0Dd4ff";
 export const OPS_EOA: string = "0x9945849a08119faebC71bF177FfCA75558b04D7B";
-export const POOL_ID: string = "";
-export const LAUNCH_BLOCK = 0;
+export const POOL_ID: string = "0x5c55fcb2b96a7c1b9fe6064c31f15e2ba97920c8a829b4385346b909005a8e13";
+export const LAUNCH_BLOCK = 62281609;
 
 export const TAX_BPS = 300;
 export const PLATFORM_BPS = 30;
